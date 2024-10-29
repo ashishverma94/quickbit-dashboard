@@ -20,7 +20,7 @@ const Sidebar = ({
 }) => {
   return (
     <div className="relative flex justify-center p-[0px] box-border">
-      <div className="max-w-[280px] w-full box-border min-h-[1024px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[24px] p-[0px_16px_0px__16px] bg-[#000000ff]">
+      <div className="max-w-[280px] w-full box-border min-h-[824px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[24px] p-[0px_16px_0px__16px] bg-[#000000ff]">
         {/* logo + Collapse1 */}
         <section className="max-w-[248px] w-full box-border min-h-[56px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-nowrap justify-between items-center content-space-between p-[16px_0px_16px__0px] bg-[#000000ff]">
           <div className="w-[24px] h-[24px] opacity-[1] z-[0]  rotate-[0deg]">
