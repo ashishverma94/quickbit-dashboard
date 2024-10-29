@@ -1,0 +1,38 @@
+/* @config "./sections/highlights/tailwind.hightlight.config.js" */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+}
+
+
+.scroll-container {
+    width: 100vw; /* Full viewport width */
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* Positioning context for animation */
+  }
+  
+  .scroll-content {
+    display: flex;
+    width: calc(200%); /* Ensure it has enough width to scroll */
+    animation: scroll 20s linear infinite; /* Adjust duration for speed */
+  }
+  
+  @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Move half of the width */
+    }
+  }
+  
+  .card {
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    width: 200px; /* Set a fixed width for cards */
+    margin-right: 112px; /* Space between cards */
+  }
+  
+  
