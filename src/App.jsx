@@ -5,7 +5,8 @@ import DetailsPage from "./pages/DetailsPage";
 function App() {
   return (
     <div className=" w-full">
-      <DetailsPage/>
+      {/* <DetailsPage/> */}
+      <EditPage/>
     </div>
   );
 }
